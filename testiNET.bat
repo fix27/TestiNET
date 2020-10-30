@@ -1,7 +1,7 @@
 echo Author: fix@inbox.ru 
 echo donate https://yasobe.ru/na/razvitie_po
 echo Start date: 07.04.2020
-echo Update date: 07.10.2020
+echo Update date: 30.10.2020
 echo https://bintray.com/ookla/download/download_file?file_path=ookla-speedtest-1.0.0-win64.zip
 cd ookla-speedtest-1.0.0-win64
 echo YES|speedtest.exe
@@ -48,11 +48,11 @@ wget --tries=1 -O nul --no-check-certificate https://yadi.sk/i/DPZVlvZQHarJBg
 echo start count +1
 cd ..\..
 PING ipv6.google.com
-cd node-v13.12.0-win-x64
-if not exist "fast.cmd" (
-    echo WARNING
-    npm install --force fast-cli
-) 
+rem cd node-v13.12.0-win-x64
+rem if not exist "fast.cmd" (
+rem     echo WARNING
+rem     npm install --force fast-cli
+rem ) 
 fast -u
 echo the end
 pause
