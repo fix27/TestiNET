@@ -55,4 +55,4 @@ rem     npm install --force fast-cli
 rem ) 
 rem fast -u
 echo the end
-pause
+rem pause
