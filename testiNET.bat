@@ -53,6 +53,6 @@ rem if not exist "fast.cmd" (
 rem     echo WARNING
 rem     npm install --force fast-cli
 rem ) 
-fast -u
+rem fast -u
 echo the end
 pause
